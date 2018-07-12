@@ -1,6 +1,6 @@
-# This is an <h1> tag
-## This is an <h2> tag
-###### This is an <h6> tag
+# This is an < h1 > tag
+## This is an < h2 > tag
+###### This is an < h6 > tag
 
 *This text will be italic*
 _This will also be italic_
@@ -25,11 +25,13 @@ _You **can** combine them_
     1. Item 3b
 
 # IMAGE
-![GitHub Logo](/images/logo.png)
-Format: ![Alt Text](url)
+![GitHub Logo](https://avatars2.githubusercontent.com/u/39235454?s=400&v=4)
+
+Format: ![Alt Text](https://avatars2.githubusercontent.com/u/39235454?s=400&v=4)
 
 # LINKS
 http://github.com - automatic!
+
 [GitHub](http://github.com)
 
 # BlockNote
