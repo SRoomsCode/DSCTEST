@@ -1,0 +1,60 @@
+﻿/*
+@TargetNode='localhost'
+@GeneratedBy=sroom
+@GenerationDate=07/16/2018 09:18:18
+@GenerationHost=DESKTOP
+*/
+
+instance of MSFT_RoleResource as $MSFT_RoleResource1ref
+{
+ResourceID = "[WindowsFeature]WebServer";
+ Ensure = "Present";
+ SourceInfo = "C:\\Users\\UserID\\source\\repos\\DSCTest\\WebSiteTest.ps1::10::9::WindowsFeature";
+ Name = "Web-Server";
+ ModuleName = "PSDesiredStateConfiguration";
+
+ModuleVersion = "1.0";
+
+ ConfigurationName = "WebsiteTest";
+
+};
+instance of MSFT_FileDirectoryConfiguration as $MSFT_FileDirectoryConfiguration1ref
+{
+ResourceID = "[File]WebsiteContent";
+ Ensure = "Present";
+ DestinationPath = "c:\\inetpub\\wwwroot";
+ ModuleName = "PSDesiredStateConfiguration";
+ SourceInfo = "C:\\Users\\UserID\\source\\repos\\DSCTest\\WebSiteTest.ps1::16::9::File";
+ SourcePath = "c:\\test\\index.htm";
+
+ModuleVersion = "1.0";
+
+ ConfigurationName = "WebsiteTest";
+
+};
+instance of OMI_ConfigurationDocument
+
+
+                    {
+ Version="2.0.0";
+ 
+
+                        MinimumCompatibleVersion = "1.0.0";
+ 
+
+                        CompatibleVersionAdditionalProperties= {"Omi_BaseResource:ConfigurationName"};
+ 
+
+                        Author="UserID";
+ 
+
+                        GenerationDate="07/16/2018 09:18:18";
+ 
+
+                        GenerationHost="DESKTOP";
+ 
+
+                        Name="WebsiteTest";
+
+
+                    };
