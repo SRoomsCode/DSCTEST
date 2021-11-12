@@ -43,7 +43,7 @@ Format: ![Alt Text](https://avatars2.githubusercontent.com/u/39235454?s=400&v=4)
 
 ## LINKS
 
-http://github.com - automatic!
+[Follow us on GitHub](http://github.com) - automatic!
 
 [GitHub](http://github.com)
 
